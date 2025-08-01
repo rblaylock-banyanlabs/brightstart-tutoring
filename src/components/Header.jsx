@@ -69,11 +69,11 @@ const Header = () => {
               </li>
               <li>
                 <a
-                  href="#contacts"
-                  id="contacts"
+                  href="#contact"
+                  id="contact"
                   className="block py-2 px-3 text-black font-normal rounded-sm md:p-0"
                 >
-                  Contacts
+                  Contact
                 </a>
               </li>
             </ul>
