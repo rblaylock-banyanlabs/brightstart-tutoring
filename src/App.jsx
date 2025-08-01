@@ -1,4 +1,4 @@
-import Header from "./components/Header" //red underline must have something to do with importing jsx into tsx
+import Header from "./components/Header" 
 import './App.css'
 
 function App() {
@@ -12,4 +12,4 @@ function App() {
 
 export default App
 
-//IDs for each section are "hero", "services", "testimonials", "contact", and "footer"
+//IDs for each section are "home", "tutors", "contacts"
