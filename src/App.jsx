@@ -12,4 +12,4 @@ function App() {
 
 export default App
 
-//IDs for each section are "home", "tutors", "contacts"
+//IDs for each section are "home", "tutors", "contact"
