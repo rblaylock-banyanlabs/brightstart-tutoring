@@ -8,7 +8,7 @@ const Header = () => {
 
   return (
     <>
-      <nav className="font-inter bg-yellow-500 fixed w-full z-20 top-0 start-0">
+      <nav className="bg-yellow-500 fixed w-full z-20 top-0 start-0">
         <div className="max-w-screen-lg flex flex-wrap justify-between mx-auto p-4">
           <a
             className="flex items-center space-x-3 rtl:space-x-reverse"
