@@ -1,6 +1,6 @@
 import Header from "./components/Header" 
-import Card from "./components/Card"
-import './App.css'
+import Hero from "./components/Hero";
+// import ContactForm from "./components/modals/ContactForm";
 import Footer from "./components/Footer";
 import "./App.css";
 
@@ -8,7 +8,8 @@ function App() {
   return (
     <>
       <Header />
-      <Card />
+      <Hero />
+      {/* <ContactForm /> */}
       <Footer />
     </>
   );
