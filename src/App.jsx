@@ -1,16 +1,11 @@
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import "./App.css";
+import ExpertTutors from './components/ExpertTutors';
 
 function App() {
   return (
-    <>
-      <Header />
-      <Footer />
-    </>
+    <div>
+      <ExpertTutors />
+    </div>
   );
 }
 
-export default App;
-
-//IDs for each section are "home", "tutors", "contact"
+export default App;  // ← ADD THIS LINE!
