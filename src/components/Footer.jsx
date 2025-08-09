@@ -14,11 +14,11 @@ const Footer = () => {
                         </p>
                     </div>
 
-                    {/* Contact Info - CENTER */}
-                    <div className="flex-1">
+                    {/* Contact Info - CENTER (Centered) */}
+                    <div className="flex-1 text-center">
                         <h4 className="text-sm font-semibold">Contact Info</h4>
                         <div className="text-xs mt-1 space-y-1">
-                            <div className="flex items-center space-x-1">
+                            <div className="flex items-center justify-center space-x-1">
                                 <span>✉️</span>
                                 <a 
                                     href="mailto:info@brightstartTutoring.com" 
@@ -27,7 +27,7 @@ const Footer = () => {
                                     info@brightstartTutoring.com
                                 </a>
                             </div>
-                            <div className="flex items-center space-x-1">
+                            <div className="flex items-center justify-center space-x-1">
                                 <span>📞</span>
                                 <a 
                                     href="tel:+15551234567" 
@@ -36,15 +36,15 @@ const Footer = () => {
                                     (555) 123-4567
                                 </a>
                             </div>
-                            <div className="flex items-center space-x-1">
+                            <div className="flex items-center justify-center space-x-1">
                                 <span>📍</span>
                                 <span>Online & Local Sessions</span>
                             </div>
                         </div>
                     </div>
 
-                    {/* Quick Links - RIGHT */}
-                    <div className="flex-1">
+                    {/* Quick Links - RIGHT (With spacing from Contact Info) */}
+                    <div className="flex-1 pl-8">
                         <h4 className="text-sm font-semibold">Quick Links</h4>
                         <div className="text-xs mt-1 space-y-1">
                             <div>
