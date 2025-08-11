@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from './button.jsx';
+import PropTypes from 'prop-types';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 const Card = ({ title, description, icon: Icon, children, className = "", topRight }) => {
@@ -37,6 +38,7 @@ Card.propTypes = {
   children: PropTypes.node,
   className: PropTypes.string,
    topRight: PropTypes.node,
+}
   
 const tutors = [
   {
@@ -147,4 +149,4 @@ const OurTutorsSection = () => {
   );
 };
 
-export default OurTutorsSection;
+export default Card;

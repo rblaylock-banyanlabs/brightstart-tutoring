@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from './Card';
-import Button from './Button';
+import Button from './button';
 import ContactForm from "./ContactForm"
 import { useState } from "react";
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
@@ -39,7 +39,7 @@ const tutors = [
   }
 ];
 
-const OurTutorsSection = () => {
+const ExpertTutor = () => {
 
   const [ showContactForm, setShowContactForm ] = useState(false)
 
@@ -125,4 +125,4 @@ const OurTutorsSection = () => {
   );
 };
 
-export default OurTutorsSection;
+export default ExpertTutor;
