@@ -1,5 +1,13 @@
 const Footer = () => {
     return (
+        <footer className="bg-yellow-500 text-black bottom-0 w-full">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    {/* Brand Section */}
+                    <div className="space-y-4">
+                        <div className="flex items-center space-x-2">
+                            <span className="text-2xl">🎓</span>
+                            <h3 className="text-xl font-bold">Bright Start Tutoring</h3>
         <footer className="bg-yellow-500 text-black fixed bottom-0 w-full">
             <div className="max-w-7xl mx-auto px-4 py-1">
                 <div className="flex flex-col md:flex-row md:items-start gap-2">

@@ -3,15 +3,6 @@ import { LuMail } from "react-icons/lu";
 import { LuMessageSquare } from "react-icons/lu";
 import { LuSend } from "react-icons/lu";
 
-//MEET THE TUTORS PAGE
-//import { useState } from "react";
-// import ContactForm from "./modals/ContactForm"
-// const [ showContactForm, setShowContactForm ] = useState(false)
-//on the Email button
-// onClick={() => setShowContactForm(true)}
-//on the bottom of the page inside the return
-// {showContactForm && (
-//   <ContactForm setShowContactForm={setShowContactForm} />
 
 const ContactForm = ({ setShowContactForm }) => {
   return (
@@ -21,9 +12,9 @@ const ContactForm = ({ setShowContactForm }) => {
         id="authentication-modal"
         tabIndex="-1"
         aria-hidden="true"
-        className="overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full"
+        className="overflow-y-auto overflow-x-hidden fixed z-50 justify-center content-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full"
       >
-        <div className="roboto-contact relative w-full max-w-lg max-h-full bg-slate-800 px-6 py-6 border-2 border-[#D6A60D] rounded-lg">
+        <div className="roboto-contact relative justify-self-center w-full max-w-lg max-h-full bg-slate-800 px-6 py-6 border-2 border-[#D6A60D] rounded-lg">
           {/* <!-- Modal content --> */}
           <div className="relative rounded-lg shadow-sm">
             {/* <!-- Modal header --> */}

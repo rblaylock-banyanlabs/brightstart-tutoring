@@ -38,8 +38,10 @@ const Hero = () => {
           title={title}
           description={description}
           icon={Icon}
+          className="border-4 border-yellow-600 px-6 py-6 border-t-4"
+          topRight={<HiOutlineStar className="text-gray-200" size={20} aria-label="Featured" />}
           >
-          <HiOutlineStar className="text-gray-200" size={20} aria-label="Featured" />
+          {/* <HiOutlineStar className="text-gray-200" size={20} aria-label="Featured" /> */}
         </Card>
       ))}
     </div>
