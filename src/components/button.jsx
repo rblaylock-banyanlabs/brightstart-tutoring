@@ -40,8 +40,8 @@ const Button = ({
 
   // Variant styles - EXACT TICKET SPECIFICATIONS
   const variantStyles = {
-    primary: 'bg-blue-600 text-white hover:bg-blue-700 focus:ring-blue-500',
-    secondary: 'bg-yellow-400 text-black hover:bg-yellow-500 focus:ring-yellow-400'
+    primary: 'border border-yellow-500 text-yellow-400 rounded-md',
+    secondary: 'border border-yellow-500 text-yellow-400 rounded-md'
   };
 
   // Size styles - EXACT TICKET SPECIFICATIONS  
